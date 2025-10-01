@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список подстанций</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #002d62;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background: #f0f3f8;
+      font-weight: bold;
+    }
+    .back {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 15px;
+      background: #0070c0;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Список подстанций со свободными слотами</h1>
+  </header>
+  <main>
+    <p>На этой странице приведён перечень доступных подстанций и количество свободных слотов. Информация представлена в виде таблицы без интерактивных элементов.</p>
+    <section id="substations">
+      <table>
+        <thead>
+          <tr>
+            <th>Подстанция</th>
+            <th>Местоположение</th>
+            <th>Свободные слоты</th>
+            <th>Описание</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ПС «Краснодарская 220»</td>
+            <td>Краснодар</td>
+            <td>5</td>
+            <td>Расположена вблизи транспортной развязки. Доступно 5 слотов для размещения оборудования.</td>
+          </tr>
+          <tr>
+            <td>ПС «Сочинская 110»</td>
+            <td>Сочи</td>
+            <td>3</td>
+            <td>Поблизости магистральные каналы и дата‑центры. Доступно 3 слота.</td>
+          </tr>
+          <tr>
+            <td>ПС «Анапская 330»</td>
+            <td>Анапа</td>
+            <td>4</td>
+            <td>Рядом с портом Анапа. Доступно 4 слота для компактных стоек.</td>
+          </tr>
+          <tr>
+            <td>ПС «Новороссийск 220»</td>
+            <td>Новороссийск</td>
+            <td>2</td>
+            <td>В зоне промышленного узла. Доступно 2 слота – рекомендуется раннее бронирование.</td>
+          </tr>
+          <tr>
+            <td>ПС «Армавирская 110»</td>
+            <td>Армавир</td>
+            <td>6</td>
+            <td>Сельскохозяйственный кластер. Доступно 6 слотов; оптимально для резервных узлов.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <a class="back" href="index.html">Вернуться на главную</a>
+  </main>
+</body>
+</html>
